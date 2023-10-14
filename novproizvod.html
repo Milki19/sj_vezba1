@@ -11,26 +11,88 @@
 <body>
   
 <main class="container">
-    <div class="row"></div>
-    <div>
+    <div class="row">
         <nav class="navbar navbar-expand-sm bg-light navbar-light">
             <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#12222RN.html">Dashboard</a>
+                  <a class="nav-link active" href="12222RN.html">Dashboard</a>
                 </li>
                <li class="nav-item">
-                  <a class="nav-link" href="#ponuda.html">Ponuda</a>
+                  <a class="nav-link" href="proizvodi.html">Ponuda</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#narudzbine.html">Narudzbine</a>
+                  <a class="nav-link" href="narudzbine.html">Narudzbine</a>
                 </li>
               </ul>
             </div>
           </nav>
     </div>
-    <h1>Nov proizvod</h1>
+    <h1>Nov proizvod</h1>  
+    <form method="post" action="http://postman-echo.com/post" onsubmit="return validacija()">
+      <div>
+        <label for="naziv">Naziv:</label>
+        <input type="text" class="form-control" id="naziv" name="naziv" required onkeypress=" this.classList.remove('success'); this.classList.remove('error')">
+      </div>
+      <label for="opis">Opis:</label>
+      <textarea id="opis" name="opis" class="form-control"></textarea>
+      <div class="row">
+        <div class="col-6">
+          <label for="kategorija">Tip odela:</label>
+          <select class="form-select" name="kategorija" id="kategorija">
+            <option value="1">Dvodelno</option>
+            <option value="2">Trodelno</option>
+            <option value="3">Tuxedo</option>
+          </select>
+        </div>
+        <div class="col-6">
+          <label for="cena">Cena:</label>
+          <input type="number" min="0" step="1" required id="cena" name="cena" class="form-control">
+        </div>
+      </div>
+    
+    <div class="mb-5">
+      <button class="btn btn-primary">Unesi</button>
+      <a href="proizvodi.html" class="btn btn-link">Nazad</a>
+    </div>
+    
+
+      
+    </form>
+    <!-- please make all buttons orange
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="naziv" class="form-label">:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd" class="form-label">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form> -->
 </main>
+
+<script>function validacija() {
+  var validno = true
+  if( document.getElementById("naziv").value.length < 3 ){
+    validno=false;
+    document.getElementById("naziv").classList.add("error");
+    document.getElementById("naziv").classList.remove("success");
+
+  }else {
+    document.getElementById("naziv").classList.remove("error");
+    document.getElementById("naziv").classList.add("success");
+
+}
+  return validno
+}  
+  </script>
 
 </body>
 </html>

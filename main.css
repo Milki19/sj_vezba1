@@ -1,10 +1,13 @@
 body{ background-color: #fefeec; }
+
 main.container{ 
 background-color:white; 
 box-shadow: 0px 0px 12px black; 
 border:1px solid black; 
 margin-top:15px; 
 }
+
+
 
 .button {
     background-color: #a31427; /* Green */
@@ -38,3 +41,5 @@ margin-top:15px;
     background-color: #a31427;
     color: white;
   }
+  .error{ border-color:red; }
+  .success{ border-color:green; }
