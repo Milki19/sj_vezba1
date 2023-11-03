@@ -1,0 +1,6 @@
+{"naziv":"dadad","opis":"dadadada","kategorija":"1","cena":"1220"}
+{"naziv":"dadad","opis":"dadadada\r\ndadadada","kategorija":"1","cena":"1220"}
+{"naziv":"dadad","opis":"dadadada\r\ndadadada","kategorija":"1","cena":"1220"}
+{"naziv":"dadad","opis":"dadad\r\nd\r\nada\r\ndada","kategorija":"1","cena":"1232"}
+{"naziv":"dadad","opis":"dadad\r\nd\r\nada\r\ndada","kategorija":"1","cena":"1232"}
+{"naziv":"dadadad","opis":"adadadada\r\nad\r\nad\r\nad\r\na\r\nda\r\nda\r\nda","kategorija":"1","cena":"1323321"}

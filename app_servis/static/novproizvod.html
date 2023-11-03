@@ -34,7 +34,7 @@
           </nav>
     </div>
     <h1>Nov proizvod</h1>  
-    <form method="post" action="http://postman-echo.com/post" onsubmit="return validacija()">
+    <form method="post" action="/novproizvod" onsubmit="return validacija()">
       <div>
         <label for="naziv">Naziv:</label>
         <input type="text" class="form-control" id="naziv" name="naziv" required onkeypress=" this.classList.remove('success'); this.classList.remove('error')">
@@ -55,13 +55,10 @@
           <input type="number" min="0" step="1" required id="cena" name="cena" class="form-control">
         </div>
       </div>
-    
-    <div class="mb-5">
+      <div class="mb-5">
       <button class="btn btn-primary">Unesi</button>
       <a href="proizvodi.html" class="btn btn-link">Nazad</a>
-    </div>
-    
-
+      </div>
       
     </form>
     <!-- please make all buttons orange
