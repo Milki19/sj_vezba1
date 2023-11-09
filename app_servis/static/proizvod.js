@@ -17,7 +17,7 @@ window.addEventListener("load", function(){
         
         }
 
-        var spanovi = document.querySelectorAll("#sastojci > span.badge");
+        var spanovi = document.querySelectorAll("#spisak-odece > span.badge");
         var niz = [];
         for(let i=0; i<spanovi.length; i++){
             niz.push(spanovi[i].dataset.id);

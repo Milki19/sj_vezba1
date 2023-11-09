@@ -44,27 +44,6 @@
         <th></th>
       </tr>
       <tbody  id="spisak">
-        <tr>
-          <td>Svecano</td>
-          <td>Kosulja</td>
-          <td>Bela</td>
-          <td>2990,90</td>
-          <td><a href="proizvod.html?id=1" class="btn btn-primary">Izmeni</a></td>
-        </tr>
-        <tr>
-          <td>Smoking</td>
-          <td>Odelo</td>
-          <td>Bordo</td>
-          <td>29990,00</td>
-          <td><a href="proizvod.html?id=1" class="btn btn-primary">Izmeni</a></td>
-        </tr>
-        <tr>
-          <td>Svecano</td>
-          <td>Kravata</td>
-          <td>Plava</td>
-          <td>1500,00</td>
-          <td><a href="proizvod.html?id=1" class="btn btn-primary">Izmeni</a></td>
-        </tr>
       </tbody>
     </table>
 </main>
@@ -79,15 +58,35 @@
                 let tr = document.createElement("tr");
                 let kategorija = document.createElement("td");
                 if(data[i].kategorija == 1){
-                    data[i].kategorija = "Svecano";
+                    data[i].kategorija = "Dvodelno";
                 }
-                else{
-                  data[i].kategorija = "Casual";
+                else if (data[i].kategorija == 2){
+                  data[i].kategorija = "Trodelno";
+                }else {
+                  data[i].kategorija = "Tuxedo";
                 }
                 kategorija.innerHTML = data[i].kategorija;
 
+                let boja = document.createElement("td");
+                if(data[i].boja == 1){
+                    data[i].boja = "Crna";
+                }else if (data[i].boja == 2){
+                  data[i].boja = "Teget";
+                }else if (data[i].boja == 3){
+                  data[i].boja = "Zelena";
+                }else if (data[i].boja == 4){
+                  data[i].boja = "Belo";
+                }else if (data[i].boja == 5){
+                  data[i].boja = "Krem";
+                }else {
+                  data[i].boja = "Surprise";
+                }
+                boja.innerHTML = data[i].boja;
+
                 let naziv = document.createElement("td");
                 naziv.innerHTML = data[i].naziv;
+
+                
 
                 let cena = document.createElement("td");
                 cena.innerHTML = data[i].cena;
@@ -95,24 +94,25 @@
                 let action = document.createElement("td");
 
                 let link = document.createElement("a");
-                link.setAttribute("href", "proizvod.html?id=" + i);
+                link.setAttribute("href", "jelo.html?id=" + i);
                 link.classList.add("btn");
                 link.classList.add("btn-primary");
                 link.innerHTML = "Izmeni";
 
-                let btn = document.createElement("button");
-                btn.classList.add("btn");
-                btn.classList.add("btn-primary");
-                btn.innerHTML = "Promena cene";
-                btn.addEventListener("click", function() {
-                    console.log("promeni cenu")
-                })
+                // let btn = document.createElement("button");
+                // btn.classList.add("btn");
+                // btn.classList.add("btn-primary");
+                // btn.innerHTML = "Promena cene";
+                // btn.addEventListener("click", function() {
+                //     console.log("promeni cenu")
+                // })
 
-                action.appendChild(btn);
+                // action.appendChild(btn);
                 action.appendChild(link);
 
                 tr.appendChild(kategorija);
                 tr.appendChild(naziv);
+                tr.appendChild(boja);
                 tr.appendChild(cena);
                 tr.appendChild(action);
 

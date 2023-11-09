@@ -1,6 +1,6 @@
-{"naziv":"dadad","opis":"dadadada","kategorija":"1","cena":"1220"}
-{"naziv":"dadad","opis":"dadadada\r\ndadadada","kategorija":"1","cena":"1220"}
-{"naziv":"dadad","opis":"dadadada\r\ndadadada","kategorija":"1","cena":"1220"}
-{"naziv":"dadad","opis":"dadad\r\nd\r\nada\r\ndada","kategorija":"1","cena":"1232"}
-{"naziv":"dadad","opis":"dadad\r\nd\r\nada\r\ndada","kategorija":"1","cena":"1232"}
-{"naziv":"dadadad","opis":"adadadada\r\nad\r\nad\r\nad\r\na\r\nda\r\nda\r\nda","kategorija":"1","cena":"1323321"}
+{"naziv":"Meggan","opis":"Psece odelo","kategorija":"2","boja":"1","cena":"15000"}
+{"naziv":"Giorno","opis":"Nov tip","kategorija":"3","boja":"2","cena":"150000"}
+{"naziv":"Giovanna","opis":"Prelepo","kategorija":"3","boja":"6","cena":"200000"}
+{"naziv":"Johnatan","opis":"JoJo","kategorija":"2","boja":"2","cena":"99999"}
+{"naziv":"Joseph","opis":"Kars is stupid","kategorija":"1","boja":"3","cena":"122222"}
+{"naziv":"dadawdaw","opis":"dadawdaw","kategorija":"1","boja":"1","cena":"1231312"}
