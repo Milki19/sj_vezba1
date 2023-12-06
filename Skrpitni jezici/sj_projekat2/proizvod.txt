@@ -1,0 +1,11 @@
+{"naziv":"Meggan","opis":"Psece odelo","kategorija":"2","boja":"1","cena":"15000"}
+{"naziv":"Giorno","opis":"Nov tip","kategorija":"3","boja":"2","cena":"150000"}
+{"naziv":"Giovanna","opis":"Prelepo","kategorija":"3","boja":"6","cena":"200000"}
+{"naziv":"Johnatan","opis":"JoJo","kategorija":"2","boja":"2","cena":"99999"}
+{"naziv":"Joseph","opis":"Kars is stupid","kategorija":"1","boja":"3","cena":"122222"}
+{"naziv":"dadadada","opis":"adwadw","kategorija":"1","boja":"Crna","cena":"123233"}
+{"naziv":"Stefan","opis":"nesto,nesto","kategorija":"2","boja":"Bela","cena":"234586"}
+{"naziv":"Stefan","opis":"dawdwawd","kategorija":"1","boja":"Srpska","cena":"123245"}
+{"naziv":"Stefan","opis":"wdawdad","kategorija":"1","boja":"Bela","cena":"123132131"}
+{"naziv":"Stefanwd","opis":"wdadawda","kategorija":"1","boja":"Bela","cena":"131231"}
+{"naziv":"Stefand","opis":"dwadwawd","kategorija":"1","boja":"Bela","cena":"12312321"}
